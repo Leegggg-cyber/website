@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>我的google共享音频库</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .music-list {
+            background: white;
+            border-radius: 12px;
+            padding: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .music-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            gap: 15px;
+        }
+
+        .music-item:last-child {
+            border-bottom: none;
+        }
+
+        .music-icon {
+            font-size: 25px;
+        }
+
+        .music-name {
+            flex: 1;
+        }
+
+        .music-name a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .music-name a:hover {
+            color: #007bff;
+        }
+
+        audio {
+            width: 250px;
+        }
+
+        @media (max-width: 700px) {
+            .music-item {
+                flex-wrap: wrap;
+            }
+
+            .music-name {
+                width: 100%;
+                flex: none;
+            }
+
+            audio {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎵 我的google共享音频库</h1>
+
+    <div class="music-list">
+
+        <!-- 音频 1 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1jqC-I1QKbjJbfQO39bY51E_8OGEUAgLd/view?usp=sharing"
+                   target="_blank">
+                    01 - 第一首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1jqC-I1QKbjJbfQO39bY51E_8OGEUAgLd/view?usp=sharing"
+                    type="audio/mpeg">
+                您的浏览器不支持音频播放。
+            </audio>
+        </div>
+
+
+        <!-- 音频 2 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1_-M0BOiY_JVjhs4BCQCrgHYYcfC081I8/view?usp=sharing"
+                   target="_blank">
+                    02 - 第二首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1_-M0BOiY_JVjhs4BCQCrgHYYcfC081I8/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+
+        <!-- 音频 3 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1W4d8J-bFHFh4OzYYTswrWRTtJdgGRV_9/view?usp=sharing"
+                   target="_blank">
+                    03 - 第三首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1W4d8J-bFHFh4OzYYTswrWRTtJdgGRV_9/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 4 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1dyeWn5y149BzW7mb3_7p6acx6Zr01led/view?usp=sharing"
+                   target="_blank">
+                    04 - 第四首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1dyeWn5y149BzW7mb3_7p6acx6Zr01led/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 5 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1xUwC98LBwZ2ZkXhZVshe6k3Z7bd9Yn1M/view?usp=sharing"
+                   target="_blank">
+                    05 - 第五首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1xUwC98LBwZ2ZkXhZVshe6k3Z7bd9Yn1M/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 6 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1uYCJZM22jsH-dfAaTJpXN_YAbzntTLf-/view?usp=sharing"
+                   target="_blank">
+                    06 - 第六首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1uYCJZM22jsH-dfAaTJpXN_YAbzntTLf-/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 7 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1Zo4k4ZPuG4TEqsIReuUzm3j9ww-1wS94/view?usp=sharing"
+                   target="_blank">
+                    07 - 第七首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1Zo4k4ZPuG4TEqsIReuUzm3j9ww-1wS94/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 8 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1mNaipx_rpjpit2fmxZa966pNe-FxSYr_/view?usp=sharing"
+                   target="_blank">
+                    08 - 第八首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1mNaipx_rpjpit2fmxZa966pNe-FxSYr_/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 9 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1n96SD2MWutBl_aYgok-4be6YgWPoF7Kx/view?usp=sharing"
+                   target="_blank">
+                    09 - 第九首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1n96SD2MWutBl_aYgok-4be6YgWPoF7Kx/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+ <!-- 音频 10 -->
+        <div class="music-item">
+            <div class="music-icon">🎵</div>
+
+            <div class="music-name">
+                <a href="https://drive.google.com/file/d/1Y7HUID8T-A8t-ery2C4dw1VHcyBk7VTA/view?usp=sharing"
+                   target="_blank">
+                    10 - 第十首音频.mp3
+                </a>
+            </div>
+
+            <audio controls preload="none">
+                <source
+                    src="https://drive.google.com/file/d/1Y7HUID8T-A8t-ery2C4dw1VHcyBk7VTA/view?usp=sharing"
+                    type="audio/mpeg">
+            </audio>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
